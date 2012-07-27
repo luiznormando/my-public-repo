@@ -3,7 +3,7 @@
 #
 # http://www.frustrado.com.br/main/index.php/Tutorial:_Git_b%C3%A1sico
 #
-#
+# http://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html
 #
 #
 
