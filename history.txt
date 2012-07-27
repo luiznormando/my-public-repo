@@ -1,0 +1,13 @@
+#
+#
+#
+# http://www.frustrado.com.br/main/index.php/Tutorial:_Git_b%C3%A1sico
+#
+#
+#
+#
+
+Uma maneira de fazer um arquivo con linhas muiot longas  ser cortad opara um determinado numero de colunas [e usando o bim vo ocmando :g
+
+Teste.
+
