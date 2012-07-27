@@ -7,8 +7,6 @@
 #
 #
 
-Uma maneira de fazer um arquivo con linhas muiot longas  ser cortad opara um determinado numero de colunas [e usando o bim vo ocmando :g
-
 normando@maq01:~> git --version
 git version 1.7.10.4
 normando@maq01:~> 
