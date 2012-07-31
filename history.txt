@@ -118,29 +118,23 @@ git branch
 
 git remote
 
-# agora suponha que você quer baixar um repositório remoto datatest e dar o nome dele de origin;
-
-git remote add origin git@github.com:tzz/datatest.git
+# agora suponha que você quer baixar um repositório remoto my-public-repo e dar o nome dele de my-public-repo ;
 
 git remote add my-public-repo https://github.com/luiznormando/my-public-repo.git
 
+ou
+
+git remote add my-public-repo luiznormando@github.com:luiznormando/my-public-repo.git
+
 # para deixar o repositório remoto update ;
 
-git remote update my-public-repo
+# git remote update my-public-repo
+
+git pull my-public-repo master
 
 # e finalmente quer colocar coisas no repositório remoto ;
 
-normando@maq01:~/public_html/exemplo> git push my-public-repo
-Username for 'https://github.com': luiznormando
-Password for 'https://luiznormando@github.com': 
-To https://github.com/luiznormando/my-public-repo.git
- ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'https://github.com/luiznormando/my-public-repo.git'
-hint: Updates were rejected because a pushed branch tip is behind its remote
-hint: counterpart. If you did not intend to push that branch, you may want to
-hint: specify branches to push or set the 'push.default' configuration
-hint: variable to 'current' or 'upstream' to push only the current branch.
-normando@maq01:~/public_html/exemplo> 
+git push my-public-repo master
 
 
 #
