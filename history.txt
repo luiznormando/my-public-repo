@@ -126,13 +126,15 @@ git push -a
 # ---------------------------------------------------------------------------------------------------------
 #
 
-Integração com o svn :
+Integração com o svn : http://flavio.castelli.name/2007/09/04/howto_use_git_with_svn/
 
 git svn --help
 
 git svn rebase
 
 git svn dcommit
+
+git stash
 
 git svn log 
 
