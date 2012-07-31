@@ -1,18 +1,12 @@
 #
-#
-#
 # http://www.frustrado.com.br/main/index.php/Tutorial:_Git_b%C3%A1sico
+#
+# ---------------------------------------------------------------------------------------------------------
 #
 # http://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html
 #
+# ---------------------------------------------------------------------------------------------------------
 #
-
-Uma maneira de fazer um arquivo con linhas muiot longas  ser cortad opara um determinado numero de colunas [e usando o bim vo ocmando :g
-
-
-Nao tenho certeza do comando.
-
-----
 
 normando@maq01:~> git --version
 git version 1.7.10.4
@@ -27,6 +21,8 @@ normando@maq01:~> git config --global color.status auto
 normando@maq01:~> 
 normando@maq01:~> git config --global core.editor "vim"
 normando@maq01:~> 
+
+
 normando@maq01:~> ls -lrt 
 total 4580
 -rw-r--r-- 1 normando users 4640784 Jul 12 13:00 CuteWriter.exe
@@ -44,6 +40,7 @@ drwxr-xr-x 2 normando users    4096 Jul 27 12:26 Downloads
 normando@maq01:~> cd public_html/
 normando@maq01:~/public_html> git init
 Initialized empty Git repository in /home/normando/public_html/.git/
+normando@maq01:~/public_html> 
 normando@maq01:~/public_html> ls -la
 total 16
 drwxr-xr-x  3 normando users 4096 Jul 27 15:16 .
@@ -51,9 +48,9 @@ drwxr-xr-x 33 normando users 4096 Jul 27 15:13 ..
 -rw-r--r--  1 normando users   48 Jul 19 11:26 .directory
 drwxr-xr-x  7 normando users 4096 Jul 27 15:16 .git
 normando@maq01:~/public_html> vim history.txt
+normando@maq01:~/public_html> 
 normando@maq01:~/public_html> git add history.txt
-normando@maq01:~/public_html> git commit history.txt ' Importaçao do arquivo inicial.' 
-error: pathspec '" Importa\303\247ao do arquivo inicial."' did not match any file(s) known to git.
+normando@maq01:~/public_html> 
 normando@maq01:~/public_html> git commit history.txt -m 'Importaçao do arquivo inicial.' 
 [master (root-commit) d8548c0] Importaçao do arquivo inicial.
  1 file changed, 13 insertions(+)
@@ -62,6 +59,5 @@ normando@maq01:~/public_html>
 normando@maq01:~/public_html> 
 normando@maq01:~/public_html> git log
 normando@maq01:~/public_html> 
-normando@maq01:~/public_html> SciTE history.txt &
-[1] 6351
 normando@maq01:~/public_html> 
+
