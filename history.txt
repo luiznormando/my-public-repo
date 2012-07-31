@@ -68,6 +68,65 @@ normando@maq01:~/public_html>
 # ---------------------------------------------------------------------------------------------------------
 #
 
+# Sequência de comandos: 
+
+# Inicializa uma pasta :
+
+cd <pasta> && git init 
+
+# adiciona os arquivos da pasta ao controle de versão : 
+
+git add *
+
+# comita os arquivos :
+
+git commit -a -m "Criação."
+
+# verifica se mais alguma coisa tem que ser comitada :
+
+git status
+
+# verifica o log dos commits :
+
+git log
+
+# lista onde você está trabalhando :
+
+git branch
+
+# cria um branch da sua cópia local :
+
+git branch v0.1
+
+# lista de novo onde você está e observa que você está no (*) master ;
+
+git branch
+
+# para mudar de branch faz-se um check out 
+
+git checkout v0.1
+
+# lista de novo onde você está e observa que você está no (*) v0.1 ;
+
+git branch
+
+# agora suponha que você ver quais repositórios remotovs você tem ;
+
+git remote
+
+# agora suponha que você quer baixar um repositório remoto datatest e dar o nome dele de origin;
+
+git remote add origin git@github.com:tzz/datatest.git
+
+# e finalmente quer colocar coisas no repositório remoto ;
+
+git push -a
+
+#
+# ---------------------------------------------------------------------------------------------------------
+#
+
+Instale o git-svn :
 
 
 #
