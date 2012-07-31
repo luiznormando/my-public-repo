@@ -130,7 +130,11 @@ Integração com o svn :
 
 git svn --help
 
+git svn rebase
 
+git svn dcommit
+
+git svn log 
 
 #
 # ---------------------------------------------------------------------------------------------------------
