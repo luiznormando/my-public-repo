@@ -98,11 +98,15 @@ git branch
 
 git branch v0.1
 
+# ou cria um branch de uma cópia específica :
+
+git branch v0.1.1 v0.1
+
 # lista de novo onde você está e observa que você está no (*) master ;
 
 git branch
 
-# para mudar de branch faz-se um check out 
+# para mudar de branch faz-se um check out ;
 
 git checkout v0.1
 
@@ -118,15 +122,32 @@ git remote
 
 git remote add origin git@github.com:tzz/datatest.git
 
+git remote add my-public-repo https://github.com/luiznormando/my-public-repo.git
+
+# para deixar o repositório remoto update ;
+
+git remote update my-public-repo
+
 # e finalmente quer colocar coisas no repositório remoto ;
 
-git push -a
+normando@maq01:~/public_html/exemplo> git push my-public-repo
+Username for 'https://github.com': luiznormando
+Password for 'https://luiznormando@github.com': 
+To https://github.com/luiznormando/my-public-repo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/luiznormando/my-public-repo.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you did not intend to push that branch, you may want to
+hint: specify branches to push or set the 'push.default' configuration
+hint: variable to 'current' or 'upstream' to push only the current branch.
+normando@maq01:~/public_html/exemplo> 
+
 
 #
 # ---------------------------------------------------------------------------------------------------------
 #
 
-Integração com o svn : http://flavio.castelli.name/2007/09/04/howto_use_git_with_svn/
+# Integração com o svn : http://flavio.castelli.name/2007/09/04/howto_use_git_with_svn/
 
 git svn --help
 
